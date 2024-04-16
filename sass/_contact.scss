@@ -1,0 +1,81 @@
+.contact-textarea {
+    font-family: "League+Spartan", sans-serif;
+    font-size: 1.125rem;
+}
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    height: 43.875rem;
+}
+
+.contact-title {
+    h1, h2 {
+    text-align: center;
+    margin: 1rem;
+    }
+    h1 {
+    font-size: 3.125rem;
+    }
+    h2 {
+    font-size: 1.5625rem;
+    }
+}
+
+.contact-form-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 37.5rem;
+    label {
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 1.125rem;
+    }
+    input {
+    &[type="text"], &[type="email"] {
+        width: 100%;
+        padding: .625rem;
+        margin-top: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: .3125rem;
+        box-sizing: border-box;
+    }
+    }
+    textarea {
+    width: 100%;
+    padding: .625rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: .3125rem;
+    box-sizing: border-box;
+    }
+    .contact-submit {
+    width: 100%;
+    padding: .625rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: .3125rem;
+    box-sizing: border-box;
+    background-color: #0B60B0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        background-color: #094C7A;
+    }
+    }
+    .contact-textarea {
+    height: 7.5rem;
+    resize: vertical;
+    margin-top: 1rem;
+    }
+}

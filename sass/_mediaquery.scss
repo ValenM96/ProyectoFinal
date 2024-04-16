@@ -1,0 +1,153 @@
+@media (max-width: 1024px) {
+    .sectionHome1 {
+    margin-top: 1.25rem;
+    }
+    .articleHome1 img {
+    width: 50%;
+    height: auto;
+    }
+    .sectionHome2 {
+    padding: 6.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+    justify-content: space-arounds;
+    }
+    .sectionHome2 {
+    padding: 1.25rem;
+    }
+    .card-container {
+    margin: 0;
+    margin-top: .9375rem;
+    }
+    .aboutMe {
+    flex-direction: column;
+    }
+    .imgAbout, .parrafoAbout {
+    width: 90%;
+    font-size: .9375rem;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+    flex-direction: column;
+    width: 100%;
+    ul {
+        display: flex;
+    }
+    }
+    .mainPorfolio {
+    margin-top: 1.875rem;
+    height: 100%;
+    justify-content: center;
+    }
+    .card-container {
+    flex-direction: column;
+    margin: 0;
+    }
+    .card {
+    width: 90%;
+    }
+    footer {
+    width: 100%;
+    div {
+        gap: .625rem;
+    }
+    }
+    .name-proyect {
+    font-size: 2.1875rem;
+    }
+}
+
+@media (max-width: 375px) {
+    header ul {
+    flex-direction: column;
+    justify-content: center;
+    gap: .3125rem;
+    }
+    .card-container {
+    width: 375px;
+    }
+    .back {
+    display: none;
+    }
+    .name-proyect {
+    font-size: 1.875rem;
+    }
+    .h1Home {
+    font-size: 30px;
+    padding: 5px;
+    }
+    .articleHome1 {
+    flex-direction: column;
+    img {
+        margin: 0;
+        padding: .625rem;
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+    div aside {
+        margin-top: 1.25rem;
+    }
+    }
+    .articleHome2 {
+    flex-direction: column-reverse;
+    }
+    .myWorks {
+    justify-content: center;
+    margin: 0;
+    margin-left: 3.125rem;
+    }
+    .videoContainer {
+    width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    header ul {
+    flex-direction: column;
+    justify-content: center;
+    gap: .3125rem;
+    }
+    .indexMain {
+    flex-direction: column;
+    width: 100%;
+    }
+    .h1Home {
+    font-size: 30px;
+    padding: 5px;
+    }
+    .articleHome1 {
+    flex-direction: column;
+    img {
+        margin: 0;
+        padding: .625rem;
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+    div aside {
+        margin-top: 1.25rem;
+    }
+    }
+    .articleHome2 {
+    flex-direction: column-reverse;
+    }
+    .myWorks {
+    margin: 0;
+    margin-left: .9375rem;
+    }
+    .videoContainer {
+    width: 100%;
+    }
+    .card-container {
+    width: 320px;
+    }
+    .back {
+    display: none;
+    }
+}

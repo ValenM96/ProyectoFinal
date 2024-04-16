@@ -1,0 +1,32 @@
+footer {
+    background-color: #0f0f0f;
+    padding: .625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    section {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+        margin: 0 .625rem;
+        text-decoration: none;
+        color: #0B60B0;
+        }
+    }
+    }
+    .back {
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    font-weight: bold;
+    &:hover {
+        color: #0B60B0;
+    }
+    }
+}

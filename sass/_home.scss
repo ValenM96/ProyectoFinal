@@ -1,0 +1,86 @@
+.h1Home {
+    text-align: center;
+    font-size: 3.125rem;
+}
+
+.sectionHome1 {
+    margin-top: 1.25rem;
+}
+
+.articleHome1 {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+    width: 50rem;
+    height: 50rem;
+    margin-left: 3.125rem;
+    }
+    aside {
+    text-align: left;
+    margin: 1.875rem;
+    margin-top: 6.25rem;
+    margin-left: 6.25rem;
+    font-size: 1.875rem;
+    width: 50%;
+    line-height: 1.3;
+    }
+}
+
+.sectionHome2 {
+    background-color: black;
+    padding: 9.375rem;
+}
+
+.articleHome2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(15, 15, 15);
+    margin: 1.25rem 0;
+    padding: 1.25rem;
+    box-shadow: .125rem .125rem .3125rem #0B60B0;
+    border-radius: .3125rem;
+}
+
+.videoContainer {
+    width: 50rem;
+    height: 40rem;
+    video {
+    width: 100%;
+    height: 100%;
+    }
+}
+
+
+.myWorks {
+    display: block;
+    text-align: left;
+    margin-bottom: 1.25rem;
+    margin-left: 3.125rem;
+    text-decoration: none;
+    font-size: 2.8125rem;
+    color: white;
+    width: 13.4375rem;
+}
+
+.pmyWorks {
+    font-size: 1.875rem;
+    width: 50%;
+    height: 100%;
+    line-height: 1.3;
+}
+
+.myWorks:hover {
+    color: #0B60B0;
+}
+
+.articleHome2 p {
+    text-align: left;
+    margin-top: 3.125rem;
+    margin-left: 15.625rem;
+}
+.sketchfab {
+    width: 25px;
+    height: 25px;
+}

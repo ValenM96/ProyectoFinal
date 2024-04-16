@@ -1,0 +1,65 @@
+.porfolio {
+    text-align: center;
+    font-size: 3.125rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(33.333% - 2.5rem);
+    margin: 1.25rem;
+    box-shadow: .125rem .125rem .3125rem #0B60B0;
+    border-radius: .3125rem;
+    img {
+    width: 100%;
+    border-radius: .3125rem .3125rem 0 0;
+    }
+    h3 {
+    text-align: center;
+    margin: .625rem 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.card :hover {
+    color: #0B60B0;
+}
+
+.mainPorfolio {
+    height: 43.875rem;
+}
+
+.name-proyect {
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 3.125rem;
+}
+
+.container-proyect {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image-section {
+    img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.25rem auto;
+    }
+    p {
+    text-align: center;
+    margin: 0 auto 1.25rem;
+    max-width: 80%;
+    }
+}
