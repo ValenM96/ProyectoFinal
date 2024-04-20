@@ -81,29 +81,29 @@
         ul {
             display: flex;
         }
-    }
-    .mainPortfolio {
+        }
+        .mainPortfolio {
         margin-top: 1.875rem;
         height: 100%;
-        justify-content: center;
-    }
-    .card-container {
+        }
+        .card-container {
         flex-direction: column;
         margin: 0;
-    }
-    .card {
+        }
+        .card {
         width: 90%;
-    }
-    footer {
+        margin: 1.25rem auto;
+        }
+        footer {
         width: 100%;
         div {
-            gap: 0.625rem;
+            gap: .625rem;
+        }
+        }
+        .name-proyect {
+        font-size: 2.1875rem;
         }
     }
-    .name-proyect {
-        font-size: 2.1875rem;
-    }
-}
 
 @media (max-width: 375px) {
     header ul {

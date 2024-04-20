@@ -217,7 +217,7 @@ a {
   color: #0B60B0;
 }
 
-.mainPorfolio {
+.mainPortfolio {
   height: 43.875rem;
 }
 
@@ -408,7 +408,6 @@ a {
   .mainPortfolio {
     margin-top: 1.875rem;
     height: 100%;
-    justify-content: center;
   }
   .card-container {
     flex-direction: column;
@@ -416,6 +415,7 @@ a {
   }
   .card {
     width: 90%;
+    margin: 1.25rem auto;
   }
   footer {
     width: 100%;
