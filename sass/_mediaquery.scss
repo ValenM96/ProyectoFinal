@@ -72,6 +72,10 @@
         width: 90%;
         font-size: 0.9375rem;
     }
+    .parrafoAbout{
+        flex-direction: column;
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 425px) {
@@ -101,7 +105,21 @@
         }
         }
         .name-proyect {
-        font-size: 2.1875rem;
+        font-size: 2.5rem;
+        }
+        .h1Aboutme{
+        font-size: 2.5rem;
+        }
+        .porfolio{
+            font-size: 2.5rem;
+        }
+        .contact-title{
+            h1{
+                font-size: 2.5rem;
+            }
+            h2{
+                font-size: 1.25rem;
+            }
         }
     }
 
@@ -124,6 +142,20 @@
         font-size: 1.875rem;
         padding: 5px;
     }
+    .h1Aboutme{
+        font-size: 1.875rem;
+        }
+    .porfolio{
+            font-size: 1.875rem;
+        }
+    .contact-title{
+        h1{
+                font-size: 1.875rem;
+            }
+        h2{
+                font-size: 1.25rem;
+            }
+        }
     .articleHome1 {
         flex-direction: column;
         img {
@@ -135,6 +167,9 @@
         }
         aside {
             margin-top: 1.25rem;
+            p{
+                font-size: 1.25rem;
+            }
         }
     }
     .articleHome2 {
